@@ -1,0 +1,33 @@
+name: tarea_6
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.0.0
+  http: ^0.13.4
+  url_launcher: ^6.0.3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/appstore.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/your_photo.jpg
+    - assets/young.png
+    - assets/adult.png
+    - assets/elderly.png
+    - assets/icons/
